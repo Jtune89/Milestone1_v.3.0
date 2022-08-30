@@ -130,5 +130,31 @@ letter-spacing: 3px;
 text-align: center;
 
 padding-top:200px;
+}
+
+/*accom page specific css*/
+
+.accom-image{
+    height: 700px;
+    width: 100%;
+    background: url('../images/hotel.jpeg') no-repeat center center;
+    animation-name: main-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forward;
+}
+
+.cover-text-accom, .cover-text-accom h2{
+    text-align:center;
+    color: white;
+}
+
+.cover-text-accom{
+font-size:130%;
+font-family: raleway, tahoma;
+text-transform: uppercase;
+letter-spacing: 3px;
+text-align: center;
+
+padding-top:200px;
 
 }
