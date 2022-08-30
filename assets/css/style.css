@@ -1,59 +1,88 @@
-nav ul {
-    list-style: none;
-    text-align: right;
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+*{
     margin:0;
     padding:0;
+    border:none;
+}
+body{
+    font-family: raleway;
+    color: rgb(67, 64, 64);
 }
 
-nav li {
-    font-size: 1.2em;
-    line-height: 30px;
-    height: 30px;
-    display:inline-block;
-    margin:1.5%;
+h1, h2{
+    font-family: raleway, tahoma;
+    text-align: left;
+    letter-spacing: 3px;
+    font-size: 50px;
+    color:rgb(67, 64, 64);
+}
+
+.logo{
+    float:left;
+    font-size: 400%;
+    padding-top:10px;
+}
+
+nav ul{
+    font-size:100%;
+    float:right;
+    list-style-type: none;
+    margin-right:30px;
+}
+
+nav li{
+    display: inline-block;
+    margin:10px;
 }
 
 nav a{
     text-decoration: none;
-    color:white;
-    display: block;
+    color:inherit;
+    line-height: 75px;
 }
 
-nav li:hover{
-    font-weight: bold;
-    font-size: 1.4em;
+nav a:hover{
+    font-size: 150%;
 }
 
-body{
-    background-repeat: no-repeat;
-    background-position: center, center fixed;
-    background-size: cover;
+.main-section{
+    height:700px;
+    width:100%;
+    overflow:hidden;
 }
 
-body{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+.front-image{
+    height: 700px;
+    width: 100%;
+    background: url('../images/background1.jpeg') no-repeat center center;
+    animation-name: main-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forward;
 }
 
-h1{
-    font-family: geneva;
-    text-align: center;
-    font-size: 75px;
+@keyframes main-zoom {
+    from {
+        transform: scale(1);
+    }
+    to{
+        transform:scale(1.05);
+    }
+}
+
+.cover-text, .cover-text h2{
+    text-align:center;
     color: white;
 }
 
-.front-container{
-    margin-top: 10%;
-    margin-left:10%;
-    margin-right:10%;
-}
+.cover-text{
+font-size:130%;
+font-family: raleway, tahoma;
+text-transform: uppercase;
+letter-spacing: 3px;
+text-align: center;
 
-body.other-background{
-    background-repeat: no-repeat;
-    background-position: center;
-    position:relative;
-    width:100%;
-    height:800px;
-    margin-left:auto;
-    margin-right:auto;
-}
+padding-top:50px;
 
+top:10px
+}
