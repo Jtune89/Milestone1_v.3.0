@@ -26,7 +26,7 @@ h1, h2{
 }
 
 nav ul{
-    font-size:100%;
+    font-size:150%;
     float:right;
     list-style-type: none;
     margin-right:30px;
@@ -56,7 +56,7 @@ nav a:hover{
 .front-image{
     height: 700px;
     width: 100%;
-    background: url('../images/background1.jpeg') no-repeat center center;
+    background: url('../images/mexico-beach.jpeg') no-repeat center center;
     animation-name: main-zoom;
     animation-duration: 5s;
     animation-fill-mode: forward;
@@ -86,4 +86,49 @@ text-align: center;
 padding-top:50px;
 
 top:10px
+}
+
+footer{
+    height: 150px;
+}
+
+.socials{
+    text-align: center;
+}
+.socials li{
+    display:inline;
+}
+
+.socials i{
+    font-size: 250%;
+    margin: 0.2%;
+    padding:2%;
+    color:rgb(67, 64, 64);
+}
+
+/*content page specific css*/
+
+.content-image{
+    height: 700px;
+    width: 100%;
+    background: url('../images/mexico-main-copy.jpg') no-repeat center center;
+    animation-name: main-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forward;
+}
+
+.cover-text-content, .cover-text-content h2{
+    text-align:center;
+    color: rgb(67, 64, 64);
+}
+
+.cover-text-content{
+font-size:130%;
+font-family: raleway, tahoma;
+text-transform: uppercase;
+letter-spacing: 3px;
+text-align: center;
+
+padding-top:200px;
+
 }
