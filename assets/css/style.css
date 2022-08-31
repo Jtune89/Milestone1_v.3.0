@@ -82,10 +82,7 @@ font-family: raleway, tahoma;
 text-transform: uppercase;
 letter-spacing: 3px;
 text-align: center;
-
-padding-top:50px;
-
-top:10px
+padding-top:200px;
 }
 
 footer{
@@ -128,7 +125,6 @@ font-family: raleway, tahoma;
 text-transform: uppercase;
 letter-spacing: 3px;
 text-align: center;
-
 padding-top:200px;
 }
 
@@ -154,7 +150,23 @@ font-family: raleway, tahoma;
 text-transform: uppercase;
 letter-spacing: 3px;
 text-align: center;
-
 padding-top:200px;
+}
 
+/*content box formats*/
+
+.content-box{
+    height:700px;
+}
+
+.left-box{
+    padding-top:30px;
+    width:33%;
+    float: left;
+}
+
+.right-box{
+    padding-top:30px;
+    width:33%;
+    float: right;
 }
